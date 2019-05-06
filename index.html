@@ -43,8 +43,17 @@
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true }
-				]
+					{ src: 'plugin/highlight/highlight.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true }
+				],
+				fragmentInURL: true,
+				hash: true,
+				history: true,
+				markdown: {
+					smartypants: true
+				},
+				previewLinks: true,
+				slideNumber: true
 			});
 		</script>
 	</body>
