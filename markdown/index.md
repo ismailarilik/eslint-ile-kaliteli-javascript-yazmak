@@ -2,6 +2,8 @@
 
 İsmail Arılık
 
+Yazılım Mühendisi
+
 ---
 
 ## Konular
